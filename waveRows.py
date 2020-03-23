@@ -4,7 +4,7 @@ from collections import defaultdict
 
 def getWaveRows(cur):
     rows = []
-
+    """
     cur.execute(
         'SELECT B.ip_address, ' +
         '       COUNT(A.wavetype) count ' +
@@ -46,14 +46,11 @@ def getWaveRows(cur):
     }
 
     for row in rows:
-        """
-        row[0] : icu
-        row[1] : count
-        """
         data[icu[row[0]]] += row[1]
         data['total'] += row[1]
         data['summary'] += row[1]
-
+"""
+    data = {"total":100}
     return data
 
 

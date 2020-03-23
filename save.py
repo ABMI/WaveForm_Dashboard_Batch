@@ -3,13 +3,13 @@ import time
 
 import os
 import requests
-
+## nodeJS 서버?
 url = "http://128.1.99.43:3000/saveStatistic"
 
 # For local testing
 # url = "http://localhost:3000/saveStatistic"
 
-json_dir = 'D:\\Project\\Biosignal\\KTY\\json'
+json_dir = 'D:\\Project\\pathology\\KTY\\json'
 headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
 
 data = ''

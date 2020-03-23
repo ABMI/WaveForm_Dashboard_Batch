@@ -1,3 +1,4 @@
+#수정됨
 import pymssql
 
 from diskUsage import getDiskSpace

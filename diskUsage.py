@@ -1,3 +1,4 @@
+## 수정 해야함
 import os
 import collections
 
@@ -36,7 +37,7 @@ def getDiskSpace():
     diskUsage.__doc__ = __doc__
 
     # drives = ['C:', 'D:', 'E:', 'F:']
-    drives = ['Y:']
+    drives = ['C:', 'D:', 'Z:']
 
     disk_array = []
 
